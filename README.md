@@ -1,12 +1,12 @@
 # VueAdmin
 
-<a href="https://github.com/vuejs/vue">
+<a href="https://github.com/vuejs/vue" target="_blank">
     <img src="https://img.shields.io/badge/vue-4.1.2-brightgreen.svg" alt="vue">
   </a>
-  <a href="https://github.com/ElemeFE/element">
+  <a href="https://github.com/ElemeFE/element" target="_blank">
     <img src="https://img.shields.io/badge/element--ui-2.13.0-brightgreen.svg" alt="element-ui">
   </a>
-  <a href="https://MRXKing.github.com/donate">
+  <a href="https://MRXKing.github.com/VueAdmin/donate" target="_blank">
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
   
@@ -56,6 +56,7 @@
 -   Excel表导出
 -   pdf
 -   导出zip
+-   PWA
 
 ## 安装步骤
 
