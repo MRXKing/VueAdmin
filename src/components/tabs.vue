@@ -50,25 +50,27 @@
 			checkTabs(val = this.$route){
 				let title = val.name
 				let path =  val.path
-				if(localStorage.editableTabs == "[]" || !localStorage.editableTabs){
-					let defaultTabs =[
-						{
-							title,
-							path
+				if(path != '/login' && path != '/' && path != '/excel'){
+					if(localStorage.editableTabs == "[]" || !localStorage.editableTabs ){
+						let defaultTabs =[
+							{
+								title,
+								path
+							}
+						]
+						this.editableTabs = defaultTabs
+						localStorage.setItem('editableTabs',JSON.stringify(defaultTabs))
+						this.editableTabsValue = "0"
+					}else{
+						this.editableTabs = JSON.parse(localStorage.editableTabs)
+						if (this.arrSelect(this.editableTabs,path) == -1) {
+							this.editableTabs.push({
+								title,
+								path
+							})
 						}
-					]
-					this.editableTabs = defaultTabs
-					localStorage.setItem('editableTabs',JSON.stringify(defaultTabs))
-					this.editableTabsValue = "0"
-				}else{
-					this.editableTabs = JSON.parse(localStorage.editableTabs)
-					if (this.arrSelect(this.editableTabs,path) == -1 && path != '/login' && path != '/' && path != '/excel') {
-						this.editableTabs.push({
-							title,
-							path
-						})
+						this.editableTabsValue = (this.arrSelect(this.editableTabs,path)).toString()
 					}
-					this.editableTabsValue = (this.arrSelect(this.editableTabs,path)).toString()
 				}
 			}
 		},
