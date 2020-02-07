@@ -38,15 +38,13 @@
 
 -   Element UI
 -   登录/注销
--   Dashboard
 -   表格
 -   Tab 选项卡
 -   表单
 -   图表 :bar_chart:
 -   富文本编辑器
 -   markdown 编辑器
--   图片拖拽/裁剪上传
--   支持切换主题色 :sparkles:
+-   图片拖拽上传
 -   列表拖拽排序
 -   权限测试
 -   404 / 403
