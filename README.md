@@ -6,11 +6,11 @@
   <a href="https://github.com/ElemeFE/element" target="_blank">
     <img src="https://img.shields.io/badge/element--ui-2.13.0-brightgreen.svg" alt="element-ui">
   </a>
-  <a href="https://MRXKing.github.com/VueAdmin/donate" target="_blank">
+  <a href="https://mrxking.github.io/VueAdmin/#/donate" target="_blank">
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
   </a>
   
-  基于 Vue + Element UI 的后台管理系统模板。[线上地址](https://lin-xin.gitee.io/example/work/)
+  基于 Vue + Element UI 的后台管理系统模板。[线上地址](https://mrxking.github.io/VueAdmin/#/)
   > 参考[lin-xin/vue-manage-system](https://github.com/lin-xin/vue-manage-system)  [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
   
 ## 项目截图
