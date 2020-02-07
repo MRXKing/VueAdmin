@@ -28,11 +28,11 @@
 
 (微信号：A2388282560)
 
-![微信扫一扫](https://github.com/MRXKing/VueAdmin/blob/master/src/assets/weixin.png){:width="230px" height="230px"}
+<img src="https://github.com/MRXKing/VueAdmin/blob/master/src/assets/weixin.png" alt="微信扫一扫"  width="230" height="230">
 
 ## 前言
 
-基于vuejs开发的后台管理系统模板，使用 vue-cli4 脚手架，引用 Element UI 组件库，支持pwa,适合新手练习，老手开发,上手简单
+基于vuejs开发的后台管理系统模板，使用 vue-cli4 脚手架，引用 Element UI 组件库，支持[pwa](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps),适合新手练习，老手开发,上手简单
 
 ## 功能
 
