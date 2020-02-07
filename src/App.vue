@@ -1,19 +1,56 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+	  <container v-if="isShow">
+		  <slot>
+			  <router-view/>
+		  </slot>
+	  </container>
+	  <router-view v-else/>
   </div>
 </template>
 
+<script>
+	import container from './components/container.vue'
+	export default {
+		components:{
+			container
+		},
+		data() {
+			return {	
+				isShow:true
+			}
+		},
+		watch:{
+			$route(val){
+				if (val.path == '/login') {
+					this.isShow = false
+				}else {
+					this.isShow = true
+				}
+			}
+		}
+	}
+</script>
+
 <style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+	*
+		margin 0
+		padding 0
+		box-sizing border-box
+
+	html,body
+		width 100%
+		height 100%
+		font-family PingFang SC,Helvetica Neue,Helvetica,microsoft yahei,arial,STHeiTi,sans-serif
+		
+	.el-table{
+		.el-table__fixed-right{
+			height 100%!important
+		}
+	}
+	
+	#app 
+		width 100%
+		height 100%
+		min-height 100%
 </style>
