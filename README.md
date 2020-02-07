@@ -28,7 +28,7 @@
 
 (微信号：A2388282560)
 
-![微信扫一扫](https://github.com/MRXKing/VueAdmin/blob/master/src/assets/weixin.png)
+![微信扫一扫](https://github.com/MRXKing/VueAdmin/blob/master/src/assets/weixin.png){:width="230px" height="230px"}
 
 ## 前言
 
