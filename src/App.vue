@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" v-if="isLoad">
 	  <container v-if="isShow">
 		  <slot>
 			  <router-view/>
@@ -17,8 +17,12 @@
 		},
 		data() {
 			return {	
-				isShow:true
+				isShow:true,
+				isLoad:false
 			}
+		},
+		mounted() {
+			this.isLoad = true
 		},
 		watch:{
 			$route(val){

@@ -3,7 +3,7 @@ module.exports = {
 	outputDir: 'dist',
 	productionSourceMap: false,
 	filenameHashing: true,  //打包文件名字是否有哈希值,false保持原文件名字
-	productionSourceMap: false,
+	productionSourceMap: false
 	// devServer: {
 	//     proxy: {
 	//         '/api':{
