@@ -26,7 +26,7 @@
 
 ## 赞赏
 
-如果项目对你有帮助不如请作者喝杯饮料(微信号：A2388282560)
+如果项目对你有帮助不如请作者喝杯饮料(微信号：TianYiya_567)
 
 <img src="https://github.com/MRXKing/VueAdmin/blob/master/src/assets/weixin.png" alt="微信扫一扫"  width="230" height="230">
 
