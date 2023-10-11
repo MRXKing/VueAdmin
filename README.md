@@ -23,13 +23,6 @@
 
 ![Image text](https://github.com/MRXKing/VueAdmin/blob/master/screenshots/homepage.png)
 
-
-## 赞赏
-
-如果项目对你有帮助不如请作者喝杯饮料(微信号：TianYiya_567)
-
-<img src="https://github.com/MRXKing/VueAdmin/blob/master/src/assets/weixin.png" alt="微信扫一扫"  width="230" height="230">
-
 ## 前言
 
 基于vuejs开发的后台管理系统模板，使用 vue-cli4 脚手架，引用 Element UI 组件库，支持[pwa](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps),适合新手练习，老手开发,上手简单
